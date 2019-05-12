@@ -1,8 +1,10 @@
 body {
  
-   background-image: url(images/party3.jpg);
-    background-size: 100%;
+   background-image: url(images/party5.jpg);
+    background-size: 50% 100%;
     background-repeat: repeat;
+    
+    
 }
     
     
@@ -11,32 +13,35 @@ body {
 .box {
     
     display: table;
-    max-width: 600px;
+    max-width: 60%;
     margin: 0 auto;
-    box-shadow: 0px 10px 20px -9px;
+    box-shadow: 6px 10px 18px #CACACA;
     font-family: 'Open Sans', sans-serif;
-    background-color: beige;
-    margin-top: 10%;
+    background-color: #FFFCEE;
+    margin-top: 3%;
     padding: 15px;
+    opacity: 0.9;
+  filter: alpha(opacity=60);
     
     
 }
 .title{
     
-    border-bottom-color: white;
-    border-bottom-style: solid;
+    border-bottom-color: #C43853;
+    border-bottom-style:dotted;
+    text-shadow: 4px 3px #DEDEDE;
     
 }
 
 h1 {
-   text-align: center;
-    padding-top: 20px;
-    color:deeppink;
+   
+    text-align: center;
+   color:#FC5959;
        
 }
 
 section {
-    padding-top: 15px;
+    padding-top: 25px;
     
 }
 .q1 {margin-bottom: 15px;}
@@ -62,13 +67,16 @@ fieldset{
 h3{
     text-align: center;
     font-style: italic;
-    color:firebrick;
+    color:#C43853;
+    text-shadow: 2px 2px white;
    
     
 }
+
+
 .info{
-    margin-left: 3em;
     margin-bottom: 2em;
+    margin-left: 2em;
 }
 
 img{
@@ -84,6 +92,7 @@ input:focus {
     border-width: 1px;
     
     }
+
 span{
     
     color: red;
@@ -100,10 +109,25 @@ label{
     
 } 
 
+
+
 .submitbutton {
     border: none;
-    display: inline-block;
+    border-style:double;
+    display:inline-block;
     background-color: #2196f3;
     color: snow;
-    width:100%;
-    padding: 3%;
+    width:30.5%;
+    margin-left: 34.8%;
+    padding: 1%;
+    font-size: 30px;
+    cursor: pointer;
+    
+    
+}
+
+/*Button Change color when submit */
+
+button:hover{
+    background-color: #4caf50;
+}

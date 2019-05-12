@@ -14,205 +14,243 @@
   </head>
   <body>
     
-      <div class="background">
+    
         <div class="box">
+            
             <div class="title">
-            <h1>Party Feedback</h1>
-        </div>
+                
+                <h1>Party Feedback</h1>
+                
+            </div>
+            
             <section>
+                
                 <form action="/action_page.php" method="get">
-           <div class="q1">
-               <b id="attend1">What is your gender </b>
-                
-                <select name="gender">
+                 
+        <!-- Question n 1 --> 
                     
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="not-disclose">Not Disclose</option>
-                
-                </select>      
-                    
-                    
-            </div>
-                
-                <div class="q2"> 
-                  
-               <b id="attend2">Did you come to  the party...</b>
-                
-                <select name="companion">
-                    
-                <option value="yourself">By yourself</option>
-                <option value="friend">With a friend</option>
-                <option value="group">With a group</option>
-                
-                </select> 
-                  
-            </div>
-                    <div>
-                    <p>Will you book another party with us in the future?</p>
-                    <input type="radio" name="attend1" value="yes">Yes<br>
-                    <input type="radio" name="attend1" value="yes">No<br>
+                    <div class="q1">
                         
+                        <b id="attend1">What is your gender </b>
+                
+                        <select name="gender">
+                    
+                            <option value="male">Male</option>
+                            
+                            <option 
+                            value="female">Female</option>
+                            
+                            <option value="not-disclose">Not Disclose</option>
+                
+                        </select>      
+                    
                     
                     </div>
-                    <div>
-                    <p>Overall, were you satisfied with the party?</p>
-                    <input type="radio" name="attend1" value="yes">Yes<br>
-                    <input type="radio" name="attend1" value="yes">No<br>
-                        
+                
+                <!-- Question n 2 -->  
                     
-                    </div>
-            <div>
-                <h3>Please rate the following</h3>
-                <fieldset>
-            
-                <legend><b>Location Cleanliness</b></legend>
+                    <div class="q2"> 
+                  
+                        <b id="attend2">Did you come to  the party...</b>
+                
+                        <select name="companion">
                     
-                Below Expectations<input type="radio" name="expectations1" value="below" >
+                            <option value="yourself">By yourself</option>
+                            
+                            <option value="friend">With a friend</option>
+                            
+                            <option value="group">With a group</option>
                 
-                Met Expectaction <input type="radio" name="expectactions2" value="met">
-                
-                Above Expectactions <input type="radio" name="expectactions3" value="above">
-           
-            </fieldset>
-                
-                <fieldset>
-            
-                <legend><b>Food</b></legend>
+                    </select> 
+                  
+                </div>
                     
-                Not good<input type="radio" name="food1" value="notgood" >
-                
-                Good<input type="radio" name="food2" value="good">
-                
-                Very Good <input type="radio" name="food3" value="verygood">
-           
-            </fieldset>
-                <fieldset>
-            
-                <legend><b>Entertainment</b></legend>
+             <!-- Question n 3 -->  
                     
-                Not good<input type="radio" name="food1" value="notgood" >
-                
-                Good<input type="radio" name="food2" value="good">
-                
-                Very Good <input type="radio" name="food3" value="verygood">
-           
-            </fieldset>
                 <div>
+                    
+                    <p>Will you book another party with us in the future?</p>
+                    
+                    <input type="radio" name="attend1" value="yes">Yes<br>
+                    
+                    <input type="radio" name="attend1" value="yes">No<br>
+                        
+                    
+                </div>
+                    
+                <!-- Question n 4 -->     
+                    
+                <div>
+                    
+                    <p>Overall, were you satisfied with the party?</p>
+                    
+                    <input type="radio" name="attend1" value="yes">Yes<br>
+                    
+                    <input type="radio" name="attend1" value="yes">No<br>
+                        
+                    
+                </div>
+            
+        <!-- Question n 4 --> 
+            
+                <div>
+                    
+                    <h3>Please rate the following</h3>
                 
-                <h3>Enter your contact information to be contacted about your responses.</h3>
+                    <fieldset>
+            
+                        <legend><b>Location Cleanliness</b></legend>
+                    
+                        Below Expectations<input type="radio" name="expectations1" value="below" >
+                
+                        Met Expectaction <input type="radio" name="expectactions2" value="met">
+                
+                        Above Expectactions <input type="radio" name="expectactions3" value="above">
+           
+                    </fieldset>
+                
+                    <fieldset>
+            
+                        <legend><b>Food</b></legend>
+                    
+                        Not good<input type="radio" name="food1" value="notgood" >
+                
+                        Good<input type="radio" name="food2" value="good">
+                
+                        Very Good <input type="radio" name="food3" value="verygood">
+           
+                    </fieldset>
+                    
+                    <fieldset>
+            
+                        <legend><b>Entertainment</b></legend>
+                    
+                        Not good<input type="radio" name="food1" value="notgood" >
+                
+                        Good<input type="radio" name="food2" value="good">
+                
+                        Very Good <input type="radio" name="food3" value="verygood">
+           
+                    </fieldset>
+                
+                    <label for="Messagelabel">
+                
+                        <b>Feedback</b>
+            
+                    </label>
+            
+                    <textarea
+                      class="info"
+                    style="width:25em;height: 7em;">
+                
+                    </textarea>
+                
+            <!-- Contact Information -->    
+                    
+                    <div>
+                    
+                        <h3>Enter your contact information to be contacted about your responses.</h3>
+                        
                     <div>
                     
                     <div>
             
-            <label for="namelabel">
+                        <label for="namelabel">
             
-                <u>F</u>irst, last name<span>*</span>
+                            <u>F</u>irst, last name<span>*</span>
                 
-            </label>
+                        </label>
            
-                <input 
-                    class="info"
-                    type="text" 
-                    name="name" 
-                    pattern="[a-zA-Z0-9]+"
-                    title="Please enter a valid name, Example: Jon or Sara"
-                    accesskey="F"
-                    required
-                    >
+                        <input 
+                            class="info"
+                            type="text" 
+                            name="name" 
+                            pattern="[a-zA-Z0-9]+"
+                            title="Please enter a valid name, Example: Jon or Sara"
+                            accesskey="F"
+                            required
+                            >
         
         <br>
             
-            <label for="emaillabel">
+                    <label for="emaillabel">
                 
-                <u>E</u>mail<span>*</span>
+                        <u>E</u>mail<span>*</span>
                 
-            </label>
+                    </label>
             
-                <input
-                    class="info"
-                    type="text" 
-                    name="email" 
-                    pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                    title="Please enter a valid e-mail address, example@example.com or a@b.ca"
-                    accesskey="E"
-                    required
-                    >
+                        <input
+                            class="info"
+                            type="text" 
+                            name="email" 
+                            pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            title="Please enter a valid e-mail address, example@example.com or a@b.ca"
+                            accesskey="E"
+                            required
+                            >
        
         <br>
          
-            <label for="telephonelabel">
+                    <label for="telephonelabel">
                 
-            <u>T</u>elephone
+                        <u>T</u>elephone
                 
-            </label>
-                <input
-                    class="info" 
-                    type="tel" 
-                    name="telephone"
-                    pattern= "\d{3}" size="3">-
-                <input 
-                    type="tel" 
-                    name="telephone"
-                    pattern= "\d{3}" size="3">-
-                <input 
-                    type="tel" 
-                    name="telephone"
-                    pattern= "\d{4}" size="3"
-                    accesskey="T"                        
-                    >
+                    </label>
+                    
+                        <input
+                            class="info" 
+                            type="tel" 
+                            name="telephone"
+                            pattern= "\d{3}" size="3">-
+                        <input 
+                            type="tel" 
+                            name="telephone"
+                            pattern= "\d{3}" size="3">-
+                        
+                        <input 
+                            type="tel" 
+                            name="telephone"
+                            pattern= "\d{4}" size="3"
+                            accesskey="T"                        
+                            >
                     </div>
                 
                 </div>
-                <label for="Messagelabel">
                 
-                <u>F</u>eedback<span>*</span>
-            
-            </label>
-            
-            <textarea
-                      
-                class="info"
-                style="width:15em;height: 5em;"
-                accesskey="M"
-                required>
-            
-            </textarea>
                     </div> 
                 
-                <div>
+         <!-- Image of the party -->
+                    
+        <div>
             
-    <!-- Image of your visit -->
-    
-        <h3> Sent us an image of your visit</h3><br>
+            <h3> Sent us an image of the party</h3><br>
         
-        Attach only images:
+            <b>Attach only images:</b> 
             
-            <input
-                class="info"
-                type="file" 
-                accept="image/x-png" 
-                name="uploadimage" 
-                id="uploadimage">
+                <input
+                    class="info"
+                    type="file" 
+                    accept="image/x-png" 
+                    name="uploadimage" 
+                    id="uploadimage">
             
-            </div>
-                </form>
+        </div>
+                
             
-            </section>
-            <div class="footer-table">
+                    
+        </div>             
+       <div class="footer-table">
             
             <button type="submit" class="submitbutton" onclick="alert('Thanks for your feedback!')">Submit</button>
             
-        </div> 
-        </div>
-          
+      </div>    
+    </form>  
+
+    </section>    
        
-      </div>
+</div>
 
+       
+</body>
 
-
-
-
-
-  </body>
 </html>
