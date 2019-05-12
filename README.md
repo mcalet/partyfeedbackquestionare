@@ -3,7 +3,7 @@
 The Idea of this PROJECT was to practice some of the most popular elements use for surveys.
 
 HTML:
-   - Some of the elements I use on this project: <select>/<option>, <input type="radio">, <fieldset>.
+   - Some of the elements I use on this project: select/option, input type="radio", fieldset.
  	 - I also create a Contact information form where they must to complete to be able to submit the form.
  
  For CSS:
