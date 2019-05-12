@@ -1,4 +1,4 @@
-# partyfeedbacksurvey
+# After Party Survey
 
 The Idea of this PROJECT was practice some of the most popular elements use for creating surveys.
 
